@@ -1,2 +1,2 @@
 // DTS to AC3 5.1
-ffmpeg -i source.mkv -c:v copy -c:a ac3 -b:a 640k -c:s copy target.mkv
+ffmpeg -i source.mkv -c:v copy -c:a ac3 -b:a:1 640k -c:s copy target.mkv
